@@ -21,7 +21,10 @@
 	<key>OpenAllWhitelistURLsInWebView</key>
 	<false/>
 	<key>ExternalHosts</key>
-	<array/>
+	<array>
+		<string>192.168.8.43</string>
+		<string>atyx.ru</string>
+	</array>
 	<key>Plugins</key>
 	<dict>
 		<key>Logger</key>

@@ -37,6 +37,7 @@
 		0E3E304F15866C7800FD89E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E304E15866C7800FD89E8 /* AppDelegate.m */; };
 		0E3E305215866C7800FD89E8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E305115866C7800FD89E8 /* MainViewController.m */; };
 		0E3E305415866C7800FD89E8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E3E305315866C7800FD89E8 /* MainViewController.xib */; };
+		0E3E306315866DBB00FD89E8 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 0E3E306215866DBB00FD89E8 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +55,10 @@
 		0E3E301A15866C7700FD89E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0E3E301C15866C7700FD89E8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		0E3E301E15866C7700FD89E8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		0E3E302215866C7700FD89E8 /* money-Info.plist */ = {isa = PBXFileReference; path = "money-Info.plist"; sourceTree = "<group>"; };
+		0E3E302215866C7700FD89E8 /* money-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "money-Info.plist"; sourceTree = "<group>"; };
 		0E3E302415866C7700FD89E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E3E302615866C7800FD89E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0E3E302815866C7800FD89E8 /* money-Prefix.pch */ = {isa = PBXFileReference; path = "money-Prefix.pch"; sourceTree = "<group>"; };
+		0E3E302815866C7800FD89E8 /* money-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "money-Prefix.pch"; sourceTree = "<group>"; };
 		0E3E302915866C7800FD89E8 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		0E3E302E15866C7800FD89E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0E3E303215866C7800FD89E8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -70,13 +71,14 @@
 		0E3E304615866C7800FD89E8 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		0E3E304815866C7800FD89E8 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		0E3E304A15866C7800FD89E8 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		0E3E304D15866C7800FD89E8 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		0E3E304D15866C7800FD89E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		0E3E304E15866C7800FD89E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		0E3E305015866C7800FD89E8 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		0E3E305015866C7800FD89E8 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		0E3E305115866C7800FD89E8 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		0E3E305315866C7800FD89E8 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		0E3E305615866C7800FD89E8 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
-		0E3E305715866C7800FD89E8 /* verify.sh */ = {isa = PBXFileReference; path = verify.sh; sourceTree = "<group>"; };
+		0E3E305615866C7800FD89E8 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		0E3E305715866C7800FD89E8 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		0E3E306215866DBB00FD89E8 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		0E3E2FF415866C7600FD89E8 = {
 			isa = PBXGroup;
 			children = (
+				0E3E306215866DBB00FD89E8 /* www */,
 				0E3E302015866C7700FD89E8 /* money */,
 				0E3E300515866C7700FD89E8 /* Frameworks */,
 				0E3E300315866C7700FD89E8 /* Products */,
@@ -327,6 +330,7 @@
 				0E3E304915866C7800FD89E8 /* Capture.bundle in Resources */,
 				0E3E304B15866C7800FD89E8 /* Cordova.plist in Resources */,
 				0E3E305415866C7800FD89E8 /* MainViewController.xib in Resources */,
+				0E3E306315866DBB00FD89E8 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +424,7 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -431,6 +435,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -448,10 +453,11 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -475,6 +481,7 @@
 					"DEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "money/money-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -504,6 +511,7 @@
 					"NDEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "money/money-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -540,6 +548,7 @@
 				0E3E305C15866C7800FD89E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
